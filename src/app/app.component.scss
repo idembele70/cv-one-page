@@ -1,0 +1,29 @@
+.page {
+  width:210mm;
+  height:297mm;
+  background:transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    background: linear-gradient(180deg, var(--glass-bg-6), var(--glass-bg-1));
+  display:flex;
+  gap: 8px;
+  border: 1px solid var(--glass-border);
+  width: 98%;
+  height: 98%;
+  border-radius: var(--card-radius);
+  & app-sidebar {
+    width: 35%;
+  }
+  & app-main-card {
+    width: 65%;
+  }
+}
+
+hr {
+  margin: 0;
+  border: 1px solid var(--glass-border);
+}

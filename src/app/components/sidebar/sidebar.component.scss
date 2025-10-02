@@ -1,0 +1,58 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.avatar {
+  border-radius: var(--card-radius);
+}
+
+.role {
+  color: var(--accent);
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.experience-years {
+  margin-top: 6px;
+  font-size: 13px;
+  color: var(--muted);
+  border-radius:10px;
+  border:1px solid var(--glass-bg-6);
+  background:rgba(125,211,252,0.15);
+  width: fit-content;
+  padding: 4px;
+}
+
+.section {
+  background: linear-gradient(180deg, var(--glass-bg-1), transparent);
+  border:1px solid var(--glass-bg-6);
+  border-radius: var(--card-radius);
+  padding: 8px;
+}
+
+.about {
+  color: var(--muted);
+  line-height: 1.45;
+  font-size: 14px;
+}
+
+.links {
+  display: flex;
+  gap: 12px;
+}
+
+.icon-btn {
+  background: linear-gradient(180deg, var(--glass-bg-1), transparent);
+  border:1px solid var(--glass-bg-6);
+  border-radius: var(--card-radius);
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  & img {
+    height: 32px;
+  }
+}
