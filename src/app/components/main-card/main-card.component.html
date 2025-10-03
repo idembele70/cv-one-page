@@ -1,100 +1,46 @@
 <main class="card main-card">
-  <h2>EXPÉRIENCES PROFESSIONNELLES</h2>
+  <h2>{{ 'professionalExperiences.title' | translate }}</h2>
   <div class="timeline">
-    <div class="item">
-      <div class="date">MAI 2023 - SEPTEMBRE 2025</div>
-      <div class="title">Développeur Full-Stack</div>
-      <div class="contract-type-badge">Alternance</div>
-      <div class="society">SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)</div>
+    <div *ngFor="let proExp of ('professionalExperiences.lists' | translate)" class="item">
+      <div class="date">{{ proExp.duration }}</div>
+      <div class="title">{{ proExp.position | translate }}</div>
+      <div class="contract-type-badge">{{ proExp.contractType | translate }}</div>
+      <div class="society">{{ proExp.society | translate }}</div>
       <ul>
-        <li>Dev front-end/back-end en Angular & Node.js</li>
-        <li>Tests automatisés avec Playwright</li>
-        <li>Collaboration avec une équipe indienne (anglais)</li>
-        <li>Formation Playwright, méthode Scrum, CI/CD, GitHub</li>
-        <li>Conteneurisation avec Docker</li>
-      </ul>
-    </div>
-    <div class="item">
-      <div class="date">JUILLET - AOÛT 2021</div>
-      <div class="title">Développement Full-Stack</div>
-      <div class="contract-type-badge">Stage</div>
-      <div class="society">ECOCOTE</div>
-      <ul>
-        <li>Développement web: React, Node.js & Material-UI</li>
-      </ul>
-    </div>
-    <div class="item">
-      <div class="date">MAI - JUIL. 2019</div>
-      <div class="title">Développement Web & d'Application</div>
-      <div class="contract-type-badge">Stage</div>
-      <div class="society">SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)</div>
-      <ul>
-        <li>Développement web: en langages HTML et CSS</li>
-        <li>Codage en Python</li>
-        <li>Création de guides d'utilisation</li>
+        <li *ngFor="let task of proExp.tasks">{{ task }}</li>
       </ul>
     </div>
   </div>
 
   <div style="margin-top:14px">
-    <div class="section-title">Formations</div>
+    <div class="section-title"></div>
     <div class="edu-grid">
-      <div class="edu-grid-row">
-        <div class="item">
-          <div class="date">2023 - 2025</div>
-          <div class="title">Mastère d'Expert Systèmes Information — Nexa Digital School</div>
-        </div>
-        <div class="item">
-          <div class="date">2020 - 2021</div>
-          <div class="title">Bachelor Concepteur de Système Informatique — Lycée ORT Colomiers</div>
-        </div>
-      </div>
-      <div class="edu-grid-row">
-        <div class="item">
-          <div class="date">2018 - 2020</div>
-          <div class="title">BTS SN-IR — Option informatique et réseaux</div>
-        </div>
-        <div class="item">
-          <div class="date">2015 - 2018</div>
-          <div class="title">Baccalauréat STI2D SIN — Lycée Déodat de Séverac</div>
+      <div *ngFor="let eduRow of ('educations.lists' | translate)" class="edu-grid-row">
+        <div *ngFor="let eduItem of eduRow" class="item">
+          <div class="date">{{ eduItem.date }}</div>
+          <div class="title">{{ eduItem.title }}</div>
         </div>
       </div>
     </div>
   </div>
 
   <div style="margin-top:12px">
-    <div class="section-title">Compétences</div>
-    <div style="margin-bottom:12px;font-weight:600;color:var(--accent);font-size:13px">Langages</div>
+    <div class="section-title">{{ 'skills.title' | translate }}</div>
+    <div style="margin-bottom:12px;font-weight:600;color:var(--accent);font-size:13px">{{ 'skills.languages.title' | translate}}</div>
     <div style="display:flex;flex-wrap:wrap;gap:6px">
-      <span class="pill">HTML</span>
-      <span class="pill">CSS</span>
-      <span class="pill">JavaScript</span>
-      <span class="pill">TypeScript</span>
-      <span class="pill">YAML</span>
-      <span class="pill">Markdown</span>
-      <span class="pill">Bash</span>
+      <span *ngFor="let languages of ('skills.languages.lists' | translate)" class="pill">
+        {{ languages }}
+      </span>
     </div>
-    <div style="margin:12px 0;font-weight:600;color:var(--accent);font-size:13px">Frameworks & Bibliothèques</div>
+    <div style="margin:12px 0;font-weight:600;color:var(--accent);font-size:13px">{{ 'skills.frameworksLibraries.title' | translate}}</div>
     <div style="display:flex;flex-wrap:wrap;gap:6px">
-      <span class="pill">React</span>
-      <span class="pill">Angular</span>
-      <span class="pill">Node.js</span>
+      <span *ngFor="let frameworkLibrary of ('skills.frameworksLibraries.lists' | translate)" class="pill">
+        {{ frameworkLibrary }}
+      </span>
     </div>
-    <div style="margin:12px 0;font-weight:600;color:var(--accent);font-size:13px">Familiarité professionnelle</div>
+    <div style="margin:12px 0;font-weight:600;color:var(--accent);font-size:13px">{{ 'skills.professionalsFamiliarities.title' | translate }}</div>
     <div style="display:flex;flex-wrap:wrap;gap:6px">
-      <span class="pill">GitHub</span>
-      <span class="pill">Docker</span>
-      <span class="pill">GitHub Actions</span>
-      <span class="pill">Express.js</span>
-      <span class="pill">Prisma</span>
-      <span class="pill">Bootstrap</span>
-      <span class="pill">RxJS</span>
-      <span class="pill">Playwright</span>
-      <span class="pill">MongoDB (NoSQL)</span>
-      <span class="pill">PostgreSQL</span>
-      <span class="pill">Windows</span>
-      <span class="pill">WSL</span>
-      <span class="pill">Agile (Scrum)</span>
+      <span *ngFor="let professionalFamiliarity of ('skills.professionalsFamiliarities.lists' | translate)" class="pill">{{ professionalFamiliarity }}</span>
     </div>
   </div>
 

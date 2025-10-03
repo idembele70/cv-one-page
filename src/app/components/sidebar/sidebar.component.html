@@ -2,49 +2,47 @@
   <img class="avatar" src="assets/me.png" alt="me" />
   <div>
     <h1>DEMBELE Ibrahim</h1>
-    <div class="role">DÉVELOPPEUR Full-Stack Junior</div>
-    <div class="experience-years">+2 ans d'expérience</div>
+    <div class="role">{{ 'role' | translate}}</div>
+    <div class="experience-years">+{{ 'experienceYears' | translate}}</div>
   </div>
 
   <div class="section">
-    <div class="section-title">À propos de moi</div>
-    <div class="about">Actuellement, je suis à la recherche d’un CDI en tant que développeur web, après deux années d'alternance.</div>
+    <div class="section-title">{{ 'abouts.title' | translate }}</div>
+    <div class="about">{{ 'abouts.description' | translate }}</div>
   </div>
 
   <div class="section contact">
-    <div class="section-title">Contact</div>
-    <p>43 rue dix avril, 31500 TOULOUSE</p>
-    <p>ibrahimk.dembele&#64;outlook.fr</p>
-    <p>06 34 39 94 16</p>
-    <p>Né le 17/10/2000</p>
+    <div class="section-title">{{ 'contacts.title' | translate }}</div>
+    <p>{{ 'contacts.address' | translate }}</p>
+    <p>{{ 'contacts.email' | translate }}</p>
+    <p>{{ 'contacts.phone' | translate }}</p>
+    <p>{{ 'contacts.birth' | translate }}</p>
   </div>
 
   <div class="section">
-    <div class="section-title">Langues</div>
-    <div class="pill">Anglais — Professionnel</div>
-    <div class="pill">Français — Courant</div>
+    <div class="section-title">{{ 'languages.title' | translate }}</div>
+    <div class="pill">{{ 'languages.english' | translate }}</div>
+    <div class="pill">{{ 'languages.french' | translate }}</div>
   </div>
 
   <div class="section">
-    <div class="section-title">Qualités</div>
-    <div class="pill">Travail en équipe</div>
-    <div class="pill">Autonomie</div>
-    <div class="pill">Passion pour la tech</div>
-    <div class="pill">Persévérance</div>
-    <div class="pill">Adaptabilité</div>
+    <div class="section-title">{{ 'qualities.title' | translate }}</div>
+    <div *ngFor="let quality of ('qualities.lists' | translate)" class="pill">
+      {{ quality }}
+    </div>
   </div>
 
   <div class="section">
-    <div class="section-title">Liens</div>
+    <div class="section-title">{{ 'links.title' | translate }}</div>
     <div class="links">
-      <a class="icon-btn" href="https://github.com/idembele70/" target="_blank" title="GitHub">
-        <img src="assets/github-brands-solid-full.svg" alt="github">
+      <a class="icon-btn" [href]="'links.github.url' | translate" target="_blank" [title]="'links.github.title' | translate">
+        <img src="assets/github-brands-solid-full.svg" [alt]="'links.github.title' | translate | lowercase">
       </a>
-      <a class="icon-btn" href="https://www.linkedin.com/in/ibrahim-dembele-2a91351b3/" target="_blank" title="Linkedin">
-        <img src="assets/linkedin-in-brands-solid-full.svg" alt="linkedin">
+      <a class="icon-btn" [href]="'links.linkedin.url' | translate" target="_blank" [title]="'links.linkedin.title' | translate">
+        <img src="assets/linkedin-in-brands-solid-full.svg" [alt]="'links.linkedin.title' | translate | lowercase">
       </a>
-      <a class="icon-btn" href="https://idembele70.github.io/dossier-competences-html/" target="_blank" title="Dossier de Compétences">
-        <img src="assets/book-solid-full.svg" alt="linkedin">
+      <a class="icon-btn" [href]="'links.skillsPortfolio.url' | translate" target="_blank" [title]="'links.skillsPortfolio.title' | translate">
+        <img src="assets/book-solid-full.svg" [alt]="'links.skillsPortfolio.title' | translate | lowercase">
       </a>
     </div>
   </div>
