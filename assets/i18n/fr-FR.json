@@ -1,0 +1,150 @@
+{
+  "role": "DÉVELOPPEUR Full-Stack Junior",
+  "experienceYears": "2 ans d'expérience",
+  "abouts": {
+    "title": "À propos de moi",
+    "description": "Actuellement, je suis à la recherche d’un CDI en tant que développeur web, après deux années d'alternance."
+  },
+  "contacts": {
+    "title": "contact",
+    "address": "43 rue dix avril, 31500 TOULOUSE",
+    "email": "ibrahimk.dembele@outlook.fr",
+    "phone": "06 34 39 94 16",
+    "birth": "Né le 17/10/2000"
+  },
+  "languages": {
+    "title": "Langues",
+    "english": "Anglais — Professionnel",
+    "french": "Français — Courant"
+  },
+  "qualities": {
+    "title": "qualité",
+    "lists": [
+      "Travail en équipe",
+      "Autonomie",
+      "Passion pour la tech",
+      "Persévérance",
+      "Adaptabilité"
+    ]
+  },
+  "links": {
+    "title": "Liens",
+    "github": {
+      "title": "GitHub",
+      "url": "https://github.com/idembele70/"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ibrahim-dembele-2a91351b3/"
+    },
+    "skillsPortfolio": {
+      "title": "Dossier de compétences",
+      "url": "https://idembele70.github.io/dossier-competences-html/"
+    }
+  },
+  "professionalExperiences": {
+    "title": "EXPÉRIENCES PROFESSIONNELLES",
+    "lists": [
+      {
+        "duration": "MAI 2023 - SEPTEMBRE 2025",
+        "position": "Développeur Full-Stack",
+        "contractType": "Alternance",
+        "society": "SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)",
+        "tasks": [
+          "Dev front-end/back-end en Angular & Node.js",
+          "Tests automatisés avec Playwright",
+          "Collaboration avec une équipe indienne (anglais)",
+          "Formation Playwright, méthode Scrum, CI/CD, GitHub",
+          "Conteneurisation avec Docker"
+        ]
+      },
+      {
+        "duration": "JUILLET - AOÛT 2021",
+        "position": "Développement Full-Stack",
+        "contractType": "Stage",
+        "society": "ECOCOTE",
+        "tasks": [
+          "Développement web: React, Node.js & Material-UI"
+        ]
+      },
+      {
+        "duration": "MAI - JUILLET 2019",
+        "position": "Développement Web & d'Application",
+        "contractType": "Stage",
+        "society": "SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)",
+        "tasks": [
+          "Développement web: en langages HTML et CSS",
+          "Codage en Python",
+          "Création de guides d'utilisation"
+        ]
+      }
+    ]
+  },
+  "educations": {
+    "title": "Formations",
+    "lists": [
+      [
+        {
+          "date": "2023 - 2025",
+          "title": "Mastère d'Expert Systèmes Information — Nexa Digital School"
+        },
+        {
+          "date": "2020 - 2021",
+          "title": "Bachelor Concepteur de Système Informatique — Lycée ORT Colomiers"
+        }
+      ],
+      [
+        {
+          "date": "2018 - 2020",
+          "title": "BTS SN-IR — Option informatique et réseaux — Lycée International Victor Hugo"
+        },
+        {
+          "date": "2015 - 2018",
+          "title": "Baccalauréat STI2D SIN — Lycée Déodat de Séverac"
+        }
+      ]
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "languages": {
+      "title": "Langages",
+      "lists":
+        [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "YAML",
+        "Markdown",
+        "Bash"
+      ]
+    },
+    "frameworksLibraries": {
+      "title": "Frameworks & Bibliothèques",
+      "lists": [
+        "React",
+        "Angular",
+        "Node.js"
+      ]
+    },
+    "professionalsFamiliarities": {
+      "title": "Familiarité professionnelle",
+      "lists": [
+        "GitHub",
+        "Docker",
+        "GitHub Actions",
+        "Express.js",
+        "Prisma",
+        "Bootstrap",
+        "RxJS",
+        "Playwright",
+        "MongoDB (NoSQL)",
+        "PostgreSQL",
+        "Windows",
+        "WSL",
+        "Agile (Scrum)"
+      ]
+    }
+  }
+}

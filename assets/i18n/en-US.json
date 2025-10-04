@@ -1,0 +1,149 @@
+{
+  "role": "Junior Full-Stack Developer",
+  "experienceYears": "2 years of experience",
+  "abouts": {
+    "title": "About me",
+    "description": "Currently, I am seeking a permanent contract as a web developer, after two years of apprenticeship."
+  },
+  "contacts": {
+    "title": "contact",
+    "address": "43 rue dix avril, 31500 TOULOUSE",
+    "email": "ibrahimk.dembele@outlook.fr",
+    "phone": "06 34 39 94 16",
+    "birth": "Born on 10/17/2000"
+  },
+  "languages": {
+    "title": "Languages",
+    "english": "English — Professional",
+    "french": "French — Fluent"
+  },
+  "qualities": {
+    "title": "quality",
+    "lists": [
+      "Teamwork",
+      "Autonomy",
+      "Passion for tech",
+      "Perseverance",
+      "Adaptability"
+    ]
+  },
+  "links": {
+    "title": "links",
+    "github": {
+      "title": "GitHub",
+      "url": "https://github.com/idembele70/"
+    },
+    "linkedin": {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ibrahim-dembele-2a91351b3/?locale=en_US"
+    },
+    "skillsPortfolio": {
+      "title": "Skills portfolio",
+      "url": "https://idembele70.github.io/dossier-competences-html/?locale=en_US"
+    }
+  },
+  "professionalExperiences": {
+    "title": "PROFESSIONAL EXPERIENCE",
+    "lists": [
+      {
+        "duration": "MAY 2023 - SEPTEMBER 2025",
+        "position": "Full-Stack Developer",
+        "contractType": "Apprenticeship",
+        "society": "SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)",
+        "tasks": [
+          "Front-end/back-end development with Angular & Node.js",
+          "Automated testing with Playwright",
+          "Collaboration with an Indian team (English)",
+          "Training in Playwright, Scrum methodology, CI/CD, GitHub",
+          "Containerization with Docker"
+        ]
+      },
+      {
+        "duration": "JULY - AUGUST 2021",
+        "position": "Full-Stack Development",
+        "contractType": "Internship",
+        "society": "ECOCOTE",
+        "tasks": [
+          "Web development: React, Node.js & Material-UI"
+        ]
+      },
+      {
+        "duration": "MAY - JULY 2019",
+        "position": "Web & Application Development",
+        "contractType": "Internship",
+        "society": "SOCIÉTÉ D'INFORMATIQUE INDUSTRIELLE (SII)",
+        "tasks": [
+          "Web development: HTML and CSS",
+          "Python coding",
+          "Creation of user guides"
+        ]
+      }
+    ]
+  },
+  "educations": {
+    "title": "Education",
+    "lists": [
+      [
+        {
+          "date": "2023 - 2025",
+          "title": "Master's in Information Systems Expertise — Nexa Digital School"
+        },
+        {
+          "date": "2020 - 2021",
+          "title": "Bachelor's in IT System Design — Lycée ORT Colomiers"
+        }
+      ],
+      [
+        {
+          "date": "2018 - 2020",
+          "title": "BTS SN-IR — IT and Network Option — Lycée International Victor Hugo"
+        },
+        {
+          "date": "2015 - 2018",
+          "title": "STI2D SIN Baccalauréat — Lycée Déodat de Séverac"
+        }
+      ]
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "languages": {
+      "title": "Languages",
+      "lists": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "TypeScript",
+        "YAML",
+        "Markdown",
+        "Bash"
+      ]
+    },
+    "frameworksLibraries": {
+      "title": "Frameworks & Libraries",
+      "lists": [
+        "React",
+        "Angular",
+        "Node.js"
+      ]
+    },
+    "professionalsFamiliarities": {
+      "title": "Professional Familiarity",
+      "lists": [
+        "GitHub",
+        "Docker",
+        "GitHub Actions",
+        "Express.js",
+        "Prisma",
+        "Bootstrap",
+        "RxJS",
+        "Playwright",
+        "MongoDB (NoSQL)",
+        "PostgreSQL",
+        "Windows",
+        "WSL",
+        "Agile (Scrum)"
+      ]
+    }
+  }
+}
