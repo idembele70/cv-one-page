@@ -1,4 +1,11 @@
 <div class="page">
+  <div class="lang-select-wrapper">
+    <select class="lang-select" name="languages" id="languages" (change)="onLangChange($event)">
+      <option [selected]="(currentLang$ | async) === lang" *ngFor="let lang of languages" [value]="lang">
+        {{ lang | uppercase}}
+      </option>
+    </select>
+  </div>
   <div class="container">
     <app-sidebar></app-sidebar>
     <hr>
