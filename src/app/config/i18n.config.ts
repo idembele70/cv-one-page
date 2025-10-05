@@ -9,7 +9,7 @@ export const SUPPORTED_LANGS: AvailableLang[] = ['en-US', 'fr-FR'];
 export const i18nProviders = [
    provideTranslateService({
       loader: provideTranslateHttpLoader({
-        prefix: '/assets/i18n/',
+        prefix: 'assets/i18n/',
         suffix: '.json',
       }),
       fallbackLang: FALLBACK_LANG,
