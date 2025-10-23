@@ -7,8 +7,17 @@
   </div>
 
   <div class="section">
-    <div class="section-title">{{ 'abouts.title' | translate }}</div>
-    <div class="about">{{ 'abouts.description' | translate }}</div>
+    <div class="section-title">{{ 'certificates.title' | translate }}</div>
+    <a 
+      *ngFor="let certificate of ('certificates.lists' | translate)"
+      [href]="certificate.link"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="certificate">
+      <span class="certificate-item certificate-date">{{ certificate.date | translate }}</span>
+      <span class="certificate-item certificate-name">{{ certificate.name | translate }}</span>
+      <span class="certificate-item certificate-org">{{ certificate.organisation | translate }}</span>
+    </a>
   </div>
 
   <div class="section contact">
