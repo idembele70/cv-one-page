@@ -5,6 +5,17 @@
     "title": "About me",
     "description": "Currently, I am seeking a permanent contract as a web developer, after two years of apprenticeship."
   },
+  "certificates": {
+    "title": "Certificates",
+    "lists": [
+      {
+        "date": "October 15, 2025",
+        "name": "Angular Junior Developer",
+        "organisation": "Certificates.dev",
+        "link": "https://certificates.dev/c/a0192c6f-6850-4bf5-958f-0fe137447118"
+      }
+    ]
+  },
   "contacts": {
     "title": "contact",
     "address": "43 rue dix avril, 31500 TOULOUSE",

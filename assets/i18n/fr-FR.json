@@ -1,10 +1,21 @@
 {
-  "role": "DÉVELOPPEUR Full-Stack Junior",
+  "role": "Développeur Full-Stack Junior",
   "experienceYears": "2 ans d'expérience",
   "abouts": {
     "title": "À propos de moi",
     "description": "Actuellement, je suis à la recherche d’un CDI en tant que développeur web, après deux années d'alternance."
   },
+  "certificates": {
+    "title": "Certifications",
+    "lists": [
+      {
+        "date": "15 Octobre 2025",
+        "name": "Angular Junior Développeur",
+        "organisation": "Certificates.dev",
+        "link": "https://certificates.dev/c/a0192c6f-6850-4bf5-958f-0fe137447118"
+      }
+    ]
+  } ,
   "contacts": {
     "title": "contact",
     "address": "43 rue dix avril, 31500 TOULOUSE",
