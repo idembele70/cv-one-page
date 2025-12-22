@@ -9,6 +9,12 @@
     "title": "Certifications",
     "lists": [
       {
+        "date": "22 Décembre 2025",
+        "name": "Angular Senior Développeur",
+        "organisation": "Certificates.dev",
+        "link": "https://certificates.dev/c/a0a69808-ac1a-4265-8a6f-8f4cad1d5a54"
+      },
+      {
         "date": "3 Novembre 2025",
         "name": "Angular Mid Développeur",
         "organisation": "Certificates.dev",
@@ -24,23 +30,22 @@
   } ,
   "contacts": {
     "title": "contact",
-    "address": "43 rue dix avril, 31500 TOULOUSE",
+    "address": "TOULOUSE, FRANCE",
     "email": "ibrahimk.dembele@outlook.fr",
     "phone": "06 34 39 94 16",
-    "birth": "Né le 17/10/2000"
+    "mobility": "Mobile – France entière"
   },
   "languages": {
     "title": "Langues",
-    "english": "Anglais — Professionnel",
-    "french": "Français — Courant"
+    "english": "Anglais — B2",
+    "french": "Français — C2"
   },
   "qualities": {
     "title": "qualité",
     "lists": [
       "Travail en équipe",
       "Autonomie",
-      "Passion pour la tech",
-      "Persévérance",
+      "Perseverance",
       "Adaptabilité"
     ]
   },
